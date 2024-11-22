@@ -27,8 +27,8 @@ type FormErrors = {
 export const Login = () => {
   const navigate = useNavigate()
   const [values, setValues] = useState<LoginFormValues>({
-    username: '6590001234',
-    password: 'Password@12345'
+    username: '',
+    password: ''
   })
   const [errors, setErrors] = useState<FormErrors>({})
   const [isLoading, setIsLoading] = useState(false)
